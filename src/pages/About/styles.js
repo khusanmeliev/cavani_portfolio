@@ -1,68 +1,76 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  width: 95%;
-  height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
+  background-color: #191919;
+
+  @media (max-width: 360px) {
+    height: auto;
+  }
 `;
 
-export const AboutText = styled.div`
-  width: 100%;
+export const Box = styled.div`
+  width: 90%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: column;
-  gap: 50px;
-`;
+  margin: 100px 0px;
 
-export const Top = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 5px;
-
-  hr {
-    width: 75%;
-    height: 3px;
-    border-width: 0;
-    color: #7d7789;
-    background-color: #7d7789;
+  @media (max-width: 360px) {
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px 0px;
   }
 `;
 
-export const Bottom = styled.div`
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
+export const Img = styled.img`
+  width: 40%;
+  height: 100%;
+  border-radius: 5px;
+
+  @media (max-width: 360px) {
+    width: 100%;
+  }
 `;
 
 export const Text = styled.div`
-  width: 45%;
-  color: #7d7789;
-
-  span {
-    font-weight: 700;
-  }
-`;
-
-export const Address = styled.div`
-  width: 50%;
+  width: 55%;
+  height: 75%;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
-  color: #7d7789;
-  gap: 10px;
+  color: white;
 
-  li {
-    list-style-type: none;
-    font-weight: 700;
-
-    span {
-      font-weight: 200;
-    }
+  @media (max-width: 360px) {
+    width: 100%;
+    gap: 10px;
   }
 `;
+
+export const UserTitle = styled.div`
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+
+  @media (max-width: 360px) {
+    font-size: 30px;
+  }
+`;
+
+export const UserText = styled.div`
+  color: #717173;
+  font-size: 20px;
+
+  @media (max-width: 360px) {
+    font-size: 18px;
+    font-weight: 300;
+  }
+`;
+
+export const UserDetails = styled.div``;

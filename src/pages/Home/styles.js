@@ -3,52 +3,45 @@ import styled from "styled-components";
 export const HomeWrapper = styled.div`
   width: 100%;
   height: 100vh;
+  background-color: black;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+
+  @media (max-width: 360px) {
+    height: 70vh;
+  }
 `;
 
-export const TextWrapper = styled.div`
-  width: auto;
-  height: auto;
+export const Box = styled.div`
+  width: 80%;
+  height: 65%;
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
-  margin: 0px 40px;
-
-  div {
-    width: 60px;
-    height: 4px;
-    background-color: black;
-  }
-`;
-
-export const Name = styled.h1`
-  font-size: 50px;
-  color: #333;
-`;
-
-export const Text = styled.p`
-  font-size: 25px;
-  color: grey;
-
-  span {
-    color: black;
-    font-weight: 700;
-  }
-`;
-
-export const Button = styled.button`
-  width: 160px;
-  height: 50px;
-  background-color: #333;
+  justify-content: center;
   color: white;
-  border: none;
-  cursor: pointer;
+  flex-direction: column;
+  gap: 20px;
 
-  :hover {
-    background-color: white;
-    color: #333;
-    border: 2px solid black;
+  @media (max-width: 360px) {
+    width: 90%;
+  }
+`;
+
+export const Text = styled.div`
+  width: 100%;
+  letter-spacing: 2px;
+  color: rgba(198, 201, 216, 0.75);
+  font-weight: 500;
+`;
+
+export const Name = styled.div`
+  width: 75%;
+  font-size: 80px;
+  font-weight: 800;
+
+  @media (max-width: 400px) {
+    width: 100%;
+    font-size: 30px;
   }
 `;

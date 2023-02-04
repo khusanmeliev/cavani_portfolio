@@ -1,10 +1,18 @@
 import React from "react";
-import Main from "./pages/Main/Main";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Home from "./pages/Home/Home";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Services from "./pages/Services/Services";
 
 const App = () => {
   return (
     <>
-      <Main />
+      <Home />
+      <About />
+      <Services />
+      <Portfolio />
+      <Contact />
     </>
   );
 };

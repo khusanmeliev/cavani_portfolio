@@ -2,18 +2,13 @@ import styled from "styled-components";
 
 export const NavbarWrapper = styled.nav`
   width: 100%;
-  height: 55px;
+  height: 65px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 `;
 
-export const Lists = styled.ul`
+export const Box = styled.div`
+  width: 95%;
+  height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-`;
-
-export const List = styled.div`
-  list-style-type: none;
 `;

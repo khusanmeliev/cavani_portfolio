@@ -1,18 +1,10 @@
 import React from "react";
-import { List, Lists, NavbarWrapper } from "./styles";
+import { Box, NavbarWrapper } from "./styles";
 
 const Navbar = () => {
   return (
     <NavbarWrapper>
-      <ul>khusan</ul>
-      <Lists>
-        <List>Home</List>
-        <List>About</List>
-        <List>Portfolio</List>
-        <List>Service</List>
-        <List>News</List>
-        <List>Contact</List>
-      </Lists>
+      <Box></Box>
     </NavbarWrapper>
   );
 };

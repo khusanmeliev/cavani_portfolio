@@ -1,17 +1,15 @@
 import React from "react";
-import { Button, HomeWrapper, Name, Text, TextWrapper } from "./styles";
+import { Box, HomeWrapper, Name, Text } from "./styles";
 
 const Home = () => {
   return (
     <HomeWrapper>
-      <TextWrapper>
-        <Name>KHUSAN MELIEV</Name>
-        <div></div>
-        <Text>
-          Creative <span>Designer</span>
-        </Text>
-        <Button>Get in Touch</Button>
-      </TextWrapper>
+      <Box>
+        <Text>FREELANCE DIGITAL DESIGNER</Text>
+        <Name>
+          Hello, I’m <span>Khusan</span> Welcome to my World.
+        </Name>
+      </Box>
     </HomeWrapper>
   );
 };
