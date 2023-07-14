@@ -55,7 +55,7 @@ export const ServicesBox = styled.div`
 `;
 
 export const Card = styled.li`
-  width: 390px;
+  width: 350px;
   height: 350px;
   background-color: #191919;
   border-radius: 10px;
@@ -68,12 +68,7 @@ export const Card = styled.li`
     margin-top: -15px;
     transition: 0.5s;
     cursor: pointer;
-
-    background-image: linear-gradient(90deg, #f61b10, #ef0963);
-  }
-
-  @media (max-width: 360px) {
-    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    background-color: white;
   }
 `;
 
@@ -88,11 +83,7 @@ export const CardBox = styled.div`
 
 export const CardIcon = styled.div`
   font-size: 40px;
-  color: red;
-
-  @media (max-width: 360px) {
-    color: white;
-  }
+  color: white;
 `;
 
 export const CardTitle = styled.div`

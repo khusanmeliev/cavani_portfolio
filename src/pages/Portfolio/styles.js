@@ -55,7 +55,7 @@ export const PortfolioBox = styled.div`
 `;
 
 export const Card = styled.li`
-  width: 380px;
+  width: 350px;
   height: 500px;
   background-color: #191919;
   border-radius: 10px;
